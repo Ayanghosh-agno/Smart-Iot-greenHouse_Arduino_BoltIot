@@ -1,0 +1,7 @@
+This project has specially two modes – 1. The manual mode and 2. The autonomous mode, 
+the manual mode is the defalt mode where the system hears the command given to it by the user to controll the lights,fans,water-pump and the roof. 
+This manual controlling is done by the user throught the app , made by the MIT app inventory containing 5 different switches for the different equipments and 
+including the switch to turn on and off the autonomous mode.
+Now the app also contains two display sections, First and in the top most there we can see the text box where we can get the temperature,sunlight,moisture and humidity of the greenhouse by clicking on the “get” button on the app.
+Secondly there we can see the column where the app will display which of theutensils are ON or OFF by displaying 0 and 1, where 0-means ON and 1-means OFF,by taping the “get data ” button
+Now, the sunlight is measured with a own made ldr sensor with a 100 ohm ressistance which gives a analog output to the arduino depending upon the brightness of the sunlight. Morever the heater have been made from the nichome wire by giving 12v across the wire.This wire is actually used for foam cutting but  can also produce sufficient amount of heat when 12v is given across the terminals.   
